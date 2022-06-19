@@ -1,0 +1,8 @@
+.sideBar {
+	height: calc(100vh-50px);
+	position: sticky;
+	top: 50px;
+}
+.sideBar .active {
+	background-color: #f0f0ff;
+}
