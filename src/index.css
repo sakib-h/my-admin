@@ -84,10 +84,28 @@
 	/* charts */
 
 	.charts {
-		@apply px-3 py-5;
+		@apply px-3 py-5 my-2;
 	}
 
 	.chartTitle {
+		@apply text-[1.2rem] font-[600] pb-1;
+	}
+
+	.homeWidgets {
+		@apply flex justify-between my-2;
+	}
+
+	.widgets-sm {
+		@apply basis-[40%];
+	}
+	.widgets-lg {
+		@apply basis-[60%];
+	}
+	.widgets {
+		@apply px-3 py-5 my-2;
+	}
+
+	.widgetTittle {
 		@apply text-[1.2rem] font-[600] pb-1;
 	}
 }
