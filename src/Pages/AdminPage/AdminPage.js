@@ -1,6 +1,7 @@
 import React from "react";
-import TopBar from "../TopBar/Topbar";
-import SideBar from "../SideBar/SideBar";
+import TopBar from "../../Components/TopBar/Topbar";
+import SideBar from "../../Components/SideBar/SideBar";
+import Home from "../Home/Home";
 
 const AdminPage = () => {
 	return (
@@ -8,7 +9,7 @@ const AdminPage = () => {
 			<TopBar />
 			<div className="bodyContainer flex">
 				<SideBar />
-				<h6>other pages</h6>
+				<Home />
 			</div>
 		</div>
 	);

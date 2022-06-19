@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+	/* --> Top Bar */
 	.topBar {
 		@apply h-[50px] font-SourceSansPro bg-[#ffffff] sticky top-0 z-[999];
 	}
@@ -18,6 +19,8 @@
 	.avatar {
 		@apply rounded-full w-[2.5rem];
 	}
+
+	/* --> Site Bar */
 	.sideBar {
 		@apply font-SourceSansPro bg-[#fbfbff] basis-[20%];
 	}
@@ -26,13 +29,65 @@
 	}
 
 	.sideBarTitle {
-		@apply text-[#535c68] text-[1.2rem] font-[600] pb-5;
+		@apply text-[#535c68] text-[1.2rem] font-[600] pb-1;
 	}
 	.sideBarListItem {
-		@apply flex items-center text-[0.9rem] cursor-pointer px-3 py-2 mb-2 rounded-[10px]
+		@apply flex items-center text-[0.9rem] cursor-pointer px-3 py-2 rounded-[5px]
          hover:bg-[#f0f0ff] w-full;
 	}
 	.sideBarIcon {
 		@apply text-[1.1rem] mr-3;
+	}
+
+	/* home */
+
+	.home {
+		@apply basis-[80%]  font-SourceSansPro p-5;
+	}
+
+	/* Featured  */
+
+	.featured {
+		@apply w-full flex justify-between;
+	}
+
+	.featuredItem {
+		@apply basis-[30%] mb-5 rounded-[5px] px-3 py-5 cursor-pointer;
+	}
+
+	.featuredTitle {
+		@apply text-[1.2rem] font-[600] pb-1;
+	}
+
+	.featuredMoneyContainer {
+		@apply my-2 flex items-center;
+	}
+
+	.featuredMoney {
+		@apply text-[2rem] font-[600] mr-5;
+	}
+
+	.featuredMoneyRate {
+		@apply font-[500];
+	}
+	.featuredIcon {
+		@apply text-[1rem] text-[#6ab04c];
+	}
+	.negative {
+		@apply text-[#eb4d4b];
+	}
+
+	.featuredSub {
+		@apply text-[1rem] text-[#535c68];
+	}
+
+	/* charts */
+
+	.charts {
+		@apply px-3 py-5;
+	}
+
+	.chartTitle {
+		@apply text-[1.2rem] font-[600] pb-1;
 	}
 }
