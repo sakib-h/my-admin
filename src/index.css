@@ -113,13 +113,27 @@
 	}
 
 	.widgetButton {
-		@apply flex items-center bg-[#5550bd] px-2 py-1 rounded-[5px] text-[#ffffff] cursor-pointer;
+		@apply flex items-center bg-[#eeeef7] px-2 py-1 rounded-[5px] text-[#555] cursor-pointer;
 	}
 
-	.userName{
-		@apply font-[600] text-[1rem]
+	.userName {
+		@apply font-[600] text-[1rem];
 	}
-	.userTittle{
-		@apply font-[400] text-[0.9rem]
+	.userTittle {
+		@apply font-[400] text-[0.9rem];
 	}
+	.Approved {
+		@apply bg-[#badc58] text-[#555];
+	}
+	.Declined {
+		@apply bg-[#eb4d4b] text-[#fff];
+	}
+	.Pending {
+		@apply bg-[#c7ecee] text-[#555];
+	}
+
+	.widgetTh {
+		@apply text-left;
+	}
+
 }
