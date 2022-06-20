@@ -11,7 +11,7 @@
 		@apply px-5 py-1 flex justify-between items-center;
 	}
 	.logo {
-		@apply font-bold text-[2rem] text-[#130f40];
+		@apply font-bold text-[2rem] text-[#5550bd];
 	}
 	.topBarIcons {
 		@apply flex items-center;
@@ -92,20 +92,34 @@
 	}
 
 	.homeWidgets {
-		@apply flex justify-between my-2;
+		@apply flex justify-between  my-2;
 	}
 
 	.widgets-sm {
-		@apply basis-[40%];
+		@apply basis-[28%];
 	}
 	.widgets-lg {
-		@apply basis-[60%];
+		@apply basis-[70%];
 	}
 	.widgets {
-		@apply px-3 py-5 my-2;
+		@apply px-3 py-5 my-5;
 	}
 
 	.widgetTittle {
 		@apply text-[1.2rem] font-[600] pb-1;
+	}
+	.widgetIcon {
+		@apply text-[1.1rem] mr-1;
+	}
+
+	.widgetButton {
+		@apply flex items-center bg-[#5550bd] px-2 py-1 rounded-[5px] text-[#ffffff] cursor-pointer;
+	}
+
+	.userName{
+		@apply font-[600] text-[1rem]
+	}
+	.userTittle{
+		@apply font-[400] text-[0.9rem]
 	}
 }
