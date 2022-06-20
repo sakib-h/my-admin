@@ -136,4 +136,8 @@
 		@apply text-left;
 	}
 
+	/* User List */
+	.userList {
+		@apply basis-[80%]  font-SourceSansPro p-5;
+	}
 }

@@ -2,6 +2,8 @@ import React from "react";
 import TopBar from "../../Components/TopBar/Topbar";
 import SideBar from "../../Components/SideBar/SideBar";
 import Home from "../Home/Home";
+import { Routes, Route } from "react-router-dom";
+import UserList from "../UserList/UserList";
 
 const AdminPage = () => {
 	return (
@@ -9,7 +11,10 @@ const AdminPage = () => {
 			<TopBar />
 			<div className="bodyContainer flex">
 				<SideBar />
-				<Home />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="users" element={<UserList />} />
+				</Routes>
 			</div>
 		</div>
 	);
