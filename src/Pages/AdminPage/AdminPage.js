@@ -4,6 +4,7 @@ import SideBar from "../../Components/SideBar/SideBar";
 import Home from "../Home/Home";
 import { Routes, Route } from "react-router-dom";
 import UserList from "../UserList/UserList";
+import Error from "../Error/Error";
 
 const AdminPage = () => {
 	return (
@@ -14,6 +15,7 @@ const AdminPage = () => {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="users" element={<UserList />} />
+					<Route path="*" element={<Error />} />
 				</Routes>
 			</div>
 		</div>

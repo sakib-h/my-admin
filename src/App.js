@@ -7,7 +7,6 @@ function App() {
 		<div className="App">
 			<Routes>
 				<Route path="*" element={<AdminPage />} />
-				{/* <Route path="*" element={<Error />} /> */}
 			</Routes>
 		</div>
 	);
