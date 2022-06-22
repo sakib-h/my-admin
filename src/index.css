@@ -140,4 +140,12 @@
 	.userList {
 		@apply basis-[80%]  font-SourceSansPro p-5;
 	}
+
+	.button {
+		@apply rounded-[5px] bg-[#3bb077] text-[#ffffff] px-3 py-1;
+	}
+
+	.Icon {
+		@apply text-[1.5rem] cursor-pointer;
+	}
 }

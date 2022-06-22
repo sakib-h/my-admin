@@ -1,0 +1,6 @@
+.userList .css-r11z79-MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-cell:focus,
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-cell:focus-visible,
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+	outline: none !important;
+}
